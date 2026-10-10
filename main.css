@@ -1,0 +1,52 @@
+.body{
+     background-color: #5353ff;
+}
+
+.box2{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.card-badge{
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(circle, #ffd700 30%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+.p100{
+    margin-top: 10px;
+  background-color: #f0f2f5;
+  border: 1px solid #dcdfe6;
+  border-radius: 20px;
+  padding: 6px 12px;
+  display: inline-block;
+  font-size: 13px;
+  color: #333;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+
+.text{
+    color: rgba(0, 0, 255, 0.673);
+}
